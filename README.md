@@ -1,9 +1,9 @@
 # minter
-mint algorand NFTs from node.js following [ARC-69](https://github.com/algokittens/arc69)
+mint algorand NFTs from node.js following [ARC-69]
 
 ## Setup
 
-You will need node (https://nodejs.org/en/). After cloning the repo, `npm install` should install all dependencies.
+You will need node (https://nodejs.org/en/). After cloning the repo, step 1: npm init, step 2:npm install, should install all dependencies.
 
 ### Accounts
 
@@ -16,9 +16,9 @@ You will need node (https://nodejs.org/en/). After cloning the repo, `npm instal
 In `server.js`, change the following variables for your project:
 
 ```js
-const UNIT_PREFIX = "BUB-"; // Prefix before identifying number in unit name. eg. "BUB-1", "BUB-2",...
-const ASSET_PREFIX = "Algobubble #"; // Prefix before identifying number in asset name
-const DESCRIPTION = "generative bubbles";
+const UNIT_PREFIX = "NIJ-"; // Prefix before identifying number in unit name. eg. "NIJ-1", "NIJ-2",...
+const ASSET_PREFIX = "ALGONIJA #"; // Prefix before identifying number in asset name
+const DESCRIPTION = "LEADING BLOCKCHAIN B2B SOLUTIONS";
 const MIME_TYPE = "image/png"; // if .jpg, use image/jpg etc.
 const EXTERNAL_URL = ""; // external URL, NOT the image URL (could be project URL, etc)
 ```
@@ -26,6 +26,7 @@ const EXTERNAL_URL = ""; // external URL, NOT the image URL (could be project UR
 ### Images
 
 Put your images to be minted in the `/images` directory.
+KINDLY NOTE: You Can Add Many Images To Your /images Folder, I used wget with Image's Address.
 
 ### Properties
 
@@ -35,11 +36,10 @@ Edit `properties.csv` to contain the appropriate data for your project. Each row
 |1641042139996.png|testA|testB|testC|testD|testE|
 |1641042143236.png|testF|testG|testH|testI|testJ|
 |1641042146100    |testK|testL|     |testN|testO|
+|2-1.png|testP|testQ|testR|testS|testT|
 
 ## Running
 
 To run, simply execute `node server.js`. If all goes well, you should see some messages being logged relating to your transactions.
 
-## Tip
 
-This tool is completely free to use, but if you want to send me an NFT or a few ALGO in thanks you can hit me up on Twitter (https://twitter.com/AlgofishExe) or send to `FISHEXEW6C4H6PRREM4OLBQ3EOMI2ETUBM2C3UCNHSV33LA5RTM6A577T4` :)
