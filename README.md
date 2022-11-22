@@ -1,4 +1,4 @@
-# minter
+# THE ULTIMATE NFT MINTER WITH IPFS IMPLEMENTATION USING JS
 mint algorand NFTs from node.js following [ARC-69]
 
 ## Setup
